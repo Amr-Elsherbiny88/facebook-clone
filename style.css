@@ -130,7 +130,7 @@ nav {
 }
 
 /* left side start */
-.left-side {
+.left_side {
     overflow: hidden;
     position: sticky;
     left: 0;
@@ -141,23 +141,23 @@ nav {
     box-shadow: 0px 1px 3px #ccc;
 }
 
-.left-side:hover {
+.left_side:hover {
     overflow: scroll;
 }
 
-.left-side li {
+.left_side li {
     display: flex;
     align-items: center;
     padding:10px 10px 10px;
     border-radius: 8px;
 }
 
-.left-side img{
+.left_side img{
     width:40px;
     height: 40px;
 }
 
-.left-side p{
+.left_side p{
     color:#050505; 
     font-size: 15px;
     font-weight: bold;
@@ -177,7 +177,7 @@ nav {
 /* left side end */
 
 /* right side start */
-.right-side{
+.right_side{
     background-color:#f0f2f5;
     height: 100vh;
     overflow-y: hidden;
@@ -517,6 +517,9 @@ nav {
         width: 50px;
     }
     
+    .navmiddle{
+        display: none;
+    }
 }
 
 
@@ -532,7 +535,6 @@ nav {
         display: none;
     }
 }
-
 
 
 
